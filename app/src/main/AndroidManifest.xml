@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ListView_20211127">
         <activity
+            android:name=".ViewDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
