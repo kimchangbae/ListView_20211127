@@ -1,4 +1,4 @@
-package com.example.listview_20211127.data
+package com.example.listview_20211127.datas
 
 class RoomData(
     val price: Int,
