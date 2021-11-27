@@ -17,7 +17,7 @@ class RoomData(
         } else {
             val uk = this.price / 10000 // Int/Int -> 결과도 무조건 Int (소수점 버림) -> 억단위 추출
             val rest = this.price % 10000 // 나머지 구하기
-            Log.d("format","ss" + rest);
+
             val str = NumberFormat.getNumberInstance(Locale.KOREA).format(rest)
 
             return "${uk}억 ${str}"
