@@ -10,9 +10,9 @@ import com.example.listview_20211127.data.RoomData
 
 class RoomAdapter(
     val mContext: Context,
-    val resId: Int,
+    resId: Int,
     val mList: ArrayList<RoomData>
-) : ArrayAdapter<RoomData>(mContext,resId,mList) {
+) : ArrayAdapter<RoomData>(mContext, resId, mList) {
 
     val mInflater = LayoutInflater.from(mContext)
 
